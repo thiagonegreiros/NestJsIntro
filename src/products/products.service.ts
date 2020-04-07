@@ -67,7 +67,7 @@ export class ProductsService
         {
             updatedProduct.price = price;
         }
-            
+        // npm install --save mongoose @nestjs/mongoose
         updatedProduct.save();
     }
 
